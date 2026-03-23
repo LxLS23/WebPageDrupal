@@ -1,0 +1,75 @@
+# =========================
+# Composer
+# =========================
+/vendor/
+
+# =========================
+# Drupal Core (gestionado por Composer)
+# =========================
+/web/core/
+/web/libraries/
+
+# =========================
+# Archivos sensibles de configuración
+# =========================
+/web/sites/*/settings.php
+/web/sites/*/settings.local.php
+/web/sites/*/services.yml
+
+# =========================
+# Archivos generados (NO subir)
+# =========================
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/translations/
+
+# =========================
+# Base de datos / backups
+# =========================
+*.sql
+*.sqlite
+*.gz
+*.zip
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Entorno
+# =========================
+.env
+.env.*
+
+# =========================
+# Frontend
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# =========================
+# IDE / Sistema
+# =========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing
+# =========================
+/web/sites/simpletest/
+
+# =========================
+# Temporales
+# =========================
+tmp/
+cache/
+
+# =========================
+# IMPORTANTE (NO IGNORAR)
+# =========================
+# Configuración de Drupal (SÍ se versiona)
+# /config/sync
